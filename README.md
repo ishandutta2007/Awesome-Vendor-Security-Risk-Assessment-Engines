@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Vendor-Security-Risk-Assessment-Engines/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Vendor-Security-Risk-Assessment-Engines?style=flat-square" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Vendor-Security-Risk-Assessment-Engines/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Vendor-Security-Risk-Assessment-Engines?style=flat-square" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Vendor-Security-Risk-Assessment-Engines/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Vendor-Security-Risk-Assessment-Engines?style=flat-square" alt="GitHub Forks"/></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT"/></a>
   <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome"/></a>
@@ -66,111 +66,111 @@ The following table benchmarks category-leading commercial vendor security risk 
 
 Open-source tools provide transparent, self-hostable, and air-gapped alternatives to commercial TPRM platforms — eliminating per-vendor pricing while securing source code, dependencies, and container artifacts.
 
-The tools below are **sorted in descending order by GitHub star count**. Each tool includes a live badge linking directly to its GitHub stargazers page.
+The tools below are **sorted in descending order by GitHub Stars_Count**. Each tool includes a live badge linking directly to its GitHub stargazers page.
 
 ---
 
-### 1. [Trivy](https://github.com/aquasecurity/trivy) [![GitHub stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)
+### 1. [Trivy](https://github.com/aquasecurity/trivy) [![GitHub_Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: Comprehensive, multi-faceted security scanner covering container images, filesystems, Git repositories, virtual machine disks, and Kubernetes configurations. Discovers known vulnerabilities (CVEs), hardcoded secrets, misconfigurations, and licenses. Generates and inspects CycloneDX and SPDX Software Bill of Materials (SBOMs), making it an indispensable gate for evaluating third-party vendor software packages.
 
-### 2. [Gitleaks](https://github.com/gitleaks/gitleaks) [![GitHub stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=social&color=white)](https://github.com/gitleaks/gitleaks/stargazers)
+### 2. [Gitleaks](https://github.com/gitleaks/gitleaks) [![GitHub_Stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=social&color=white)](https://github.com/gitleaks/gitleaks/stargazers)
 - **License**: MIT 📄
 - **Description**: Blazing-fast secret detection engine that scans Git repositories, commits, and directories for hardcoded credentials, API keys, certificates, and auth tokens. Essential during vendor code reviews and third-party software onboarding to ensure suppliers do not introduce exposed secrets into internal infrastructure.
 
-### 3. [Grype](https://github.com/anchore/grype) [![GitHub stars](https://img.shields.io/github/stars/anchore/grype?style=social&color=white)](https://github.com/anchore/grype/stargazers)
+### 3. [Grype](https://github.com/anchore/grype) [![GitHub_Stars](https://img.shields.io/github/stars/anchore/grype?style=social&color=white)](https://github.com/anchore/grype/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: Dedicated vulnerability scanner for container images and filesystems. Ingests Syft, CycloneDX, and SPDX SBOMs to rapidly identify vulnerabilities in vendor-supplied software artifacts using up-to-date vulnerability feeds (NVD, GHSA, Red Hat, Debian, Ubuntu, Alpine).
 
-### 4. [OSV-Scanner](https://github.com/google/osv-scanner) [![GitHub stars](https://img.shields.io/github/stars/google/osv-scanner?style=social&color=white)](https://github.com/google/osv-scanner/stargazers)
+### 4. [OSV-Scanner](https://github.com/google/osv-scanner) [![GitHub_Stars](https://img.shields.io/github/stars/google/osv-scanner?style=social&color=white)](https://github.com/google/osv-scanner/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: Google's official vulnerability scanner powered by the Open Source Vulnerabilities (OSV) database. Matches project dependencies, lockfiles, container images, and SBOMs directly against authoritative open vulnerability records with precise version matching, ensuring zero-noise software supply chain auditing.
 
-### 5. [Syft](https://github.com/anchore/syft) [![GitHub stars](https://img.shields.io/github/stars/anchore/syft?style=social&color=white)](https://github.com/anchore/syft/stargazers)
+### 5. [Syft](https://github.com/anchore/syft) [![GitHub_Stars](https://img.shields.io/github/stars/anchore/syft?style=social&color=white)](https://github.com/anchore/syft/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: CLI tool and library for generating detailed Software Bill of Materials (SBOM) from container images, archives, and directories. Catalogs installed packages, nested transitive dependencies, and license classifications in industry-standard CycloneDX and SPDX formats to verify third-party vendor deliverables.
 
-### 6. [OWASP Dependency-Check](https://github.com/dependency-check/DependencyCheck) [![GitHub stars](https://img.shields.io/github/stars/dependency-check/DependencyCheck?style=social&color=white)](https://github.com/dependency-check/DependencyCheck/stargazers)
+### 6. [OWASP Dependency-Check](https://github.com/dependency-check/DependencyCheck) [![GitHub_Stars](https://img.shields.io/github/stars/dependency-check/DependencyCheck?style=social&color=white)](https://github.com/dependency-check/DependencyCheck/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: Established Software Composition Analysis (SCA) utility that identifies project dependencies and detects known publicly disclosed vulnerabilities (CVEs from NIST NVD). Widely integrated into procurement gates and CI/CD pipelines to audit vendor-submitted source packages.
 
-### 7. [Cosign](https://github.com/sigstore/cosign) [![GitHub stars](https://img.shields.io/github/stars/sigstore/cosign?style=social&color=white)](https://github.com/sigstore/cosign/stargazers)
+### 7. [Cosign](https://github.com/sigstore/cosign) [![GitHub_Stars](https://img.shields.io/github/stars/sigstore/cosign?style=social&color=white)](https://github.com/sigstore/cosign/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: Container signing, verification, and storage in an OCI registry (part of Sigstore). Provides cryptographic verification that container images and software artifacts received from third-party vendors are authentic, untampered, and originate from trusted upstream build pipelines.
 
-### 8. [OpenSSF Scorecard](https://github.com/ossf/scorecard) [![GitHub stars](https://img.shields.io/github/stars/ossf/scorecard?style=social&color=white)](https://github.com/ossf/scorecard/stargazers)
+### 8. [OpenSSF Scorecard](https://github.com/ossf/scorecard) [![GitHub_Stars](https://img.shields.io/github/stars/ossf/scorecard?style=social&color=white)](https://github.com/ossf/scorecard/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: Automated security health metric engine that evaluates open-source dependencies and vendor repositories against 18+ critical supply chain criteria: Branch-Protection, Code-Review, Maintained, Pinned-Dependencies, SAST, Signed-Releases, and Fuzzing. Generates an objective 0–10 risk score for supplier assessment.
 
-### 9. [OWASP DefectDojo](https://github.com/DefectDojo/django-DefectDojo) [![GitHub stars](https://img.shields.io/github/stars/DefectDojo/django-DefectDojo?style=social&color=white)](https://github.com/DefectDojo/django-DefectDojo/stargazers)
+### 9. [OWASP DefectDojo](https://github.com/DefectDojo/django-DefectDojo) [![GitHub_Stars](https://img.shields.io/github/stars/DefectDojo/django-DefectDojo?style=social&color=white)](https://github.com/DefectDojo/django-DefectDojo/stargazers)
 - **License**: BSD-3-Clause 📄
 - **Description**: Premier open-source vulnerability management and DevSecOps orchestration platform. Ingests and normalizes audit reports from 150+ security tools (including TPRM scans, container audits, SAST/DAST, and vendor assessments) to deduplicate findings and track vendor vulnerability remediation.
 
-### 10. [Dependency-Track](https://github.com/DependencyTrack/dependency-track) [![GitHub stars](https://img.shields.io/github/stars/DependencyTrack/dependency-track?style=social&color=white)](https://github.com/DependencyTrack/dependency-track/stargazers)
+### 10. [Dependency-Track](https://github.com/DependencyTrack/dependency-track) [![GitHub_Stars](https://img.shields.io/github/stars/DependencyTrack/dependency-track?style=social&color=white)](https://github.com/DependencyTrack/dependency-track/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: Intelligent Component Analysis platform enabling continuous software supply chain risk management. Consumes CycloneDX and SPDX SBOMs to continuously monitor vendor software components for vulnerabilities (NVD, GitHub Advisories, OSV, VulnDB) and policy violations across entire portfolio assets.
 
-### 11. [ScanCode Toolkit](https://github.com/aboutcode-org/scancode-toolkit) [![GitHub stars](https://img.shields.io/github/stars/aboutcode-org/scancode-toolkit?style=social&color=white)](https://github.com/aboutcode-org/scancode-toolkit/stargazers)
+### 11. [ScanCode Toolkit](https://github.com/aboutcode-org/scancode-toolkit) [![GitHub_Stars](https://img.shields.io/github/stars/aboutcode-org/scancode-toolkit?style=social&color=white)](https://github.com/aboutcode-org/scancode-toolkit/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: Advanced scanner that discovers licenses, copyrights, package manifests, and dependency origins within codebases. Essential for deep IP provenance auditing, software composition analysis (SCA), and legal risk verification of third-party vendor deliveries.
 
-### 12. [OSS Review Toolkit (ORT)](https://github.com/oss-review-toolkit/ort) [![GitHub stars](https://img.shields.io/github/stars/oss-review-toolkit/ort?style=social&color=white)](https://github.com/oss-review-toolkit/ort/stargazers)
+### 12. [OSS Review Toolkit (ORT)](https://github.com/oss-review-toolkit/ort) [![GitHub_Stars](https://img.shields.io/github/stars/oss-review-toolkit/ort?style=social&color=white)](https://github.com/oss-review-toolkit/ort/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: Highly configurable compliance pipeline that automates open-source license checks, dependency vulnerability scanning, and organizational policy enforcement. Ingests vendor source trees and outputs curated SBOMs and comprehensive compliance audit reports.
 
-### 13. [CVE Binary Tool](https://github.com/intel/cve-bin-tool) [![GitHub stars](https://img.shields.io/github/stars/intel/cve-bin-tool?style=social&color=white)](https://github.com/intel/cve-bin-tool/stargazers)
+### 13. [CVE Binary Tool](https://github.com/intel/cve-bin-tool) [![GitHub_Stars](https://img.shields.io/github/stars/intel/cve-bin-tool?style=social&color=white)](https://github.com/intel/cve-bin-tool/stargazers)
 - **License**: GPL-3.0 📄
 - **Description**: Binary vulnerability inspection tool developed by Intel. Scans compiled vendor binaries, stripped firmware images, and installer packages for known vulnerabilities without requiring access to vendor source code — ideal for black-box procurement verification.
 
-### 14. [Probo](https://github.com/getprobo/probo) [![GitHub stars](https://img.shields.io/github/stars/getprobo/probo?style=social&color=white)](https://github.com/getprobo/probo/stargazers)
+### 14. [Probo](https://github.com/getprobo/probo) [![GitHub_Stars](https://img.shields.io/github/stars/getprobo/probo?style=social&color=white)](https://github.com/getprobo/probo/stargazers)
 - **License**: ISC 📄
 - **Description**: Modern, self-hostable Governance, Risk, and Compliance (GRC) and Vendor Risk Management platform. Features automated vendor inventory, website risk evaluation, DPA/BAA contract tracking, subprocessor discovery, and 270+ Model Context Protocol (MCP) tools for autonomous AI agent security operations.
 
-### 15. [safedep/vet](https://github.com/safedep/vet) [![GitHub stars](https://img.shields.io/github/stars/safedep/vet?style=social&color=white)](https://github.com/safedep/vet/stargazers)
+### 15. [safedep/vet](https://github.com/safedep/vet) [![GitHub_Stars](https://img.shields.io/github/stars/safedep/vet?style=social&color=white)](https://github.com/safedep/vet/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: Policy-driven vetting engine for open-source and vendor software dependencies. Evaluates packages for security risk posture, maintainer credibility, malicious injection risks, and licensing compliance using configurable declarative YAML policies.
 
-### 16. [in-toto](https://github.com/in-toto/in-toto) [![GitHub stars](https://img.shields.io/github/stars/in-toto/in-toto?style=social&color=white)](https://github.com/in-toto/in-toto/stargazers)
+### 16. [in-toto](https://github.com/in-toto/in-toto) [![GitHub_Stars](https://img.shields.io/github/stars/in-toto/in-toto?style=social&color=white)](https://github.com/in-toto/in-toto/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: Supply chain cryptographic integrity framework. Enables organizations to define layout policies ensuring each step in a vendor's software development and build pipeline was executed strictly by authorized actors and signed with valid cryptographic keys.
 
-### 17. [Tern](https://github.com/tern-tools/tern) [![GitHub stars](https://img.shields.io/github/stars/tern-tools/tern?style=social&color=white)](https://github.com/tern-tools/tern/stargazers)
+### 17. [Tern](https://github.com/tern-tools/tern) [![GitHub_Stars](https://img.shields.io/github/stars/tern-tools/tern?style=social&color=white)](https://github.com/tern-tools/tern/stargazers)
 - **License**: BSD-2-Clause 📄
 - **Description**: Inspection utility and Python library that produces layer-by-layer Software Bill of Materials (SBOM) for container images and Dockerfiles, isolating exactly which dependencies and licenses were introduced by third-party vendor base images.
 
-### 18. [Minefield](https://github.com/bitbomdev/minefield) [![GitHub stars](https://img.shields.io/github/stars/bitbomdev/minefield?style=social&color=white)](https://github.com/bitbomdev/minefield/stargazers)
+### 18. [Minefield](https://github.com/bitbomdev/minefield) [![GitHub_Stars](https://img.shields.io/github/stars/bitbomdev/minefield?style=social&color=white)](https://github.com/bitbomdev/minefield/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: High-speed SBOM visualization engine that translates intricate Software Bill of Materials into interactive dependency graphs, rapidly highlighting vulnerable transitive packages and single-point-of-failure vendor libraries.
 
-### 19. [Chainloop](https://github.com/chainloop-dev/chainloop) [![GitHub stars](https://img.shields.io/github/stars/chainloop-dev/chainloop?style=social&color=white)](https://github.com/chainloop-dev/chainloop/stargazers)
+### 19. [Chainloop](https://github.com/chainloop-dev/chainloop) [![GitHub_Stars](https://img.shields.io/github/stars/chainloop-dev/chainloop?style=social&color=white)](https://github.com/chainloop-dev/chainloop/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: Open-source evidence store and policy engine for software supply chain attestations. Gathers SBOMs, SARIF test outputs, and vendor QA artifacts into cryptographically verifiable attestations, enforcing compliance gates across third-party deliveries.
 
-### 20. [sbomqs](https://github.com/interlynk-io/sbomqs) [![GitHub stars](https://img.shields.io/github/stars/interlynk-io/sbomqs?style=social&color=white)](https://github.com/interlynk-io/sbomqs/stargazers)
+### 20. [sbomqs](https://github.com/interlynk-io/sbomqs) [![GitHub_Stars](https://img.shields.io/github/stars/interlynk-io/sbomqs?style=social&color=white)](https://github.com/interlynk-io/sbomqs/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: SBOM quality scoring engine. Evaluates vendor-submitted Software Bill of Materials against NTIA minimum elements, ISO standards, and structural data fidelity to verify that vendor risk audits rely on complete and authentic dependency data.
 
-### 21. [Macaron](https://github.com/oracle/macaron) [![GitHub stars](https://img.shields.io/github/stars/oracle/macaron?style=social&color=white)](https://github.com/oracle/macaron/stargazers)
+### 21. [Macaron](https://github.com/oracle/macaron) [![GitHub_Stars](https://img.shields.io/github/stars/oracle/macaron?style=social&color=white)](https://github.com/oracle/macaron/stargazers)
 - **License**: UPL-1.0 📄
 - **Description**: Supply chain security analysis framework developed by Oracle Labs. Audits vendor repositories and build pipelines against SLSA (Supply chain Levels for Software Artifacts) provenance criteria and automated integrity checks.
 
-### 22. [Unicis Platform CE](https://github.com/UnicisTech/unicis-platform-ce) [![GitHub stars](https://img.shields.io/github/stars/UnicisTech/unicis-platform-ce?style=social&color=white)](https://github.com/UnicisTech/unicis-platform-ce/stargazers)
+### 22. [Unicis Platform CE](https://github.com/UnicisTech/unicis-platform-ce) [![GitHub_Stars](https://img.shields.io/github/stars/UnicisTech/unicis-platform-ce?style=social&color=white)](https://github.com/UnicisTech/unicis-platform-ce/stargazers)
 - **License**: AGPL-3.0 📄
 - **Description**: Community Edition of the Unicis open-source GRC platform. Maps compliance frameworks (ISO 27001, GDPR, SOC 2, NIST CSF) directly to vendor security profiles and generates automated Statement of Applicability (SoA) reports for third-party audits.
 
-### 23. [XORCISM](https://github.com/XORCISM-AI/XORCISM) [![GitHub stars](https://img.shields.io/github/stars/XORCISM-AI/XORCISM?style=social&color=white)](https://github.com/XORCISM-AI/XORCISM/stargazers)
+### 23. [XORCISM](https://github.com/XORCISM-AI/XORCISM) [![GitHub_Stars](https://img.shields.io/github/stars/XORCISM-AI/XORCISM?style=social&color=white)](https://github.com/XORCISM-AI/XORCISM/stargazers)
 - **License**: GPL-3.0 📄
 - **Description**: Unified, self-hosted cybersecurity platform integrating Third-Party Risk Management (TPRM) with asset management, vulnerability scanning, and SBOM ingestion across 1,100+ security integrations with local AI assistance.
 
-### 24. [OpossumUI](https://github.com/opossum-tool/OpossumUI) [![GitHub stars](https://img.shields.io/github/stars/opossum-tool/OpossumUI?style=social&color=white)](https://github.com/opossum-tool/OpossumUI/stargazers)
+### 24. [OpossumUI](https://github.com/opossum-tool/OpossumUI) [![GitHub_Stars](https://img.shields.io/github/stars/opossum-tool/OpossumUI?style=social&color=white)](https://github.com/opossum-tool/OpossumUI/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: Desktop application for auditing and reviewing large codebase scan results from ScanCode and ORT, making third-party vendor license and component compliance reviews efficient and visual.
 
-### 25. [DeltaCode](https://github.com/aboutcode-org/deltacode) [![GitHub stars](https://img.shields.io/github/stars/aboutcode-org/deltacode?style=social&color=white)](https://github.com/aboutcode-org/deltacode/stargazers)
+### 25. [DeltaCode](https://github.com/aboutcode-org/deltacode) [![GitHub_Stars](https://img.shields.io/github/stars/aboutcode-org/deltacode?style=social&color=white)](https://github.com/aboutcode-org/deltacode/stargazers)
 - **License**: Apache-2.0 📄
 - **Description**: Delta audit tool that compares two codebase scans to identify significant modifications in vendor dependencies, license changes, and copyright notices across software release versions.
 
-### 26. [vendorvet](https://github.com/cognis-digital/vendorvet) [![GitHub stars](https://img.shields.io/github/stars/cognis-digital/vendorvet?style=social&color=white)](https://github.com/cognis-digital/vendorvet/stargazers)
+### 26. [vendorvet](https://github.com/cognis-digital/vendorvet) [![GitHub_Stars](https://img.shields.io/github/stars/cognis-digital/vendorvet?style=social&color=white)](https://github.com/cognis-digital/vendorvet/stargazers)
 - **License**: MIT 📄
 - **Description**: Self-hostable, zero-network vendor risk assessment engine. Automatically scores security questionnaires and cross-references vendor SBOMs against a bundled 262K-record offline OSV/GHSA vulnerability database with zero network leakage. Generates SARIF 2.1.0 and provides an MCP server for AI agent integration.
 
@@ -225,7 +225,7 @@ We welcome community contributions! To add a new platform, update pricing, or re
 3. 📝 **Add or update the tool entry** in `README.md`:
    - Follow the established table or list format.
    - Include specific pricing, exact free tier limits, verified links, and concise capabilities.
-   - For open-source repos, include the star badge linking to `/stargazers`.
+   - For open-source repos, include the Stars_Badge linking to `/stargazers`.
 4. 🚀 **Commit and push your changes** (`git commit -m "Add <Tool-Name> to TPRM tools"`).
 5. 📬 **Submit a Pull Request (PR)** with a summary of the additions.
 
